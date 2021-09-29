@@ -1,0 +1,36 @@
+.inputForm {
+    width: 100%;
+}
+
+
+.inputContainer {
+    height: 50px;
+    padding: 5px 30px;
+    border-radius: 5px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.inputIcon {
+    padding: 0 30px;
+}
+
+.inputContainer input {
+    border: none;
+    background-color: inherit;
+    padding: 10px; 
+    color: inherit; 
+    margin-left: 10px;
+    width: 100%; 
+}
+
+.inputContainer input:focus {
+    outline: none;
+}
+
+.inputContainer input::placeholder {
+    /* font-family: inherit; */
+    color: inherit; 
+}
+

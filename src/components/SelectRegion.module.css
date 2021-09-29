@@ -1,0 +1,24 @@
+.select-container {
+  width: fit-content;
+}
+
+.item{
+
+}
+
+.select-options {
+  display: none; 
+
+}
+
+.select-button span {
+  display: inline-block; 
+}
+
+.toggleOpen {
+  display: block;
+}
+
+.iconOpen {
+  transform: rotateX(180deg)
+}

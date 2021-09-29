@@ -1,0 +1,15 @@
+.navbar {
+    padding: 1rem 5%; 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    /* box-shadow: var(--light-box-shadow); */
+    /* background-color: var(--white); */
+    /* margin-bottom: 10px; */
+}
+
+.darkTheme {
+    cursor: pointer; 
+    
+}
+

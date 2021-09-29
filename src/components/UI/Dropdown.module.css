@@ -1,0 +1,49 @@
+.selectContainer {
+    position: relative;
+    cursor: pointer; 
+    /* width: 10%; */
+  }
+
+  .selectButton {
+    display: flex; 
+    width: max-content;
+    padding: 15px 20px; 
+    /* height: 100% */
+  }
+
+  .selectButton p {
+      margin-right: 20px;
+  }
+  
+  .selectOptions {
+    list-style: none;
+    position: absolute; 
+    width: 100%; 
+    /* padding: 15px 20px;  */
+    margin-top: 5px; 
+  }
+
+  .item:last-child {
+    padding-bottom: 12px; 
+  }
+
+  .item:first-child {
+    padding-top: 12px; 
+  }
+
+  
+  .item {
+    padding: 10px 20px; 
+  }
+
+  .item:hover {
+    background-color: rgba(150, 150, 150, 0.384);
+  }
+  
+  .toggleOpen {
+    display: block;
+  }
+  
+  .iconOpen {
+    transform: rotateX(180deg)
+  }
